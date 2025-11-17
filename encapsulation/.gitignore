@@ -1,0 +1,16 @@
+# Ignore VS Code project settings
+.vscode/
+
+
+# Ignore build folders
+bin/
+lib/
+out/
+target/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
