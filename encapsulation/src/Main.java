@@ -1,8 +1,10 @@
 
-import allClasses.Account;
-import allClasses.BankCard;
-import allClasses.Passport;
-import allClasses.Person;
+import allclasses.Account;
+import allclasses.BankCard;
+import allclasses.Course;
+import allclasses.Instructor;
+import allclasses.Passport;
+import allclasses.Person;
 
 public class Main {
 

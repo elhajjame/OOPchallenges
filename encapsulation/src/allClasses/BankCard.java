@@ -1,4 +1,4 @@
-package allClasses;
+package allclasses;
 
 public class BankCard {
     private int cardNumber;

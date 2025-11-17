@@ -1,4 +1,4 @@
-package allClasses;
+package allclasses;
 
 public class Account {
     private int accNumber;
