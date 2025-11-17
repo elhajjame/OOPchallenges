@@ -1,6 +1,8 @@
 # Ignore VS Code project settings
 .vscode/
 
+# Ignore compiled Java classes
+*.class
 
 # Ignore build folders
 bin/
