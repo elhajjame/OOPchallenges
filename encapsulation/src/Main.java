@@ -1,10 +1,6 @@
 
-import allclasses.Account;
-import allclasses.BankCard;
-import allclasses.CourseStd;
-import allclasses.Passport;
-import allclasses.Person;
-import allclasses.Student;
+import allclasses.Order;
+import allclasses.Product;
 
 public class Main {
 
@@ -55,4 +51,10 @@ public class Main {
 
         System.out.println( +c1.getId()+ " title of the course: " + c1.getTitle() + ":"); s1.displayStudents();
     }
+
+    Order ord1 = new Order(1);
+    Product p1 = new Product("phone", 100, 3);
+     Product p2 = new Product("laptop", 40, 5);
+      Product p3 = new Product("mouse", 32, 99);
+
 }
