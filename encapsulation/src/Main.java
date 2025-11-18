@@ -1,10 +1,10 @@
 
 import allclasses.Account;
 import allclasses.BankCard;
-import allclasses.Course;
-import allclasses.Instructor;
+import allclasses.CourseStd;
 import allclasses.Passport;
 import allclasses.Person;
+import allclasses.Student;
 
 public class Main {
 
@@ -38,6 +38,21 @@ public class Main {
         inst.addcours(course3);
 
         inst.displayCourses();
-      }
 
+        System.out.println("-------------------------------------------------------------------------------");
+
+
+        Student s1 = new Student(1, "mehdi");
+
+
+        CourseStd c1 = new CourseStd(1, "java");
+
+        s1.enroll(c1);
+        c1.addStudent(s1);
+
+        System.out.println("course of "+s1.getName()+":");
+         c1.displayCourses();
+
+        System.out.println( +c1.getId()+ " title of the course: " + c1.getTitle() + ":"); s1.displayStudents();
+    }
 }
