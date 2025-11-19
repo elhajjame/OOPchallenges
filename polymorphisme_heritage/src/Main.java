@@ -1,31 +1,38 @@
+
 import classes.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        List<Shape> shapes = new ArrayList<>();
+//         List<Shape> shapes = new ArrayList<>();
 
-        shapes.add(new Circle(23));
-        shapes.add(new Rectangle(10, 12));
-        shapes.add(new Triangle(2, 6));
+//         shapes.add(new Circle(23));
+//         shapes.add(new Rectangle(10, 12));
+//         shapes.add(new Triangle(2, 6));
 
-        for (Shape d : shapes) {
-            System.out.println(d.calculateArea());
-        }
+//         for (Shape d : shapes) {
+//             System.out.println(d.calculateArea());
+//         }
 
-// ============================= challenge 2 ====================================
+// // ============================= challenge 2 ====================================
+//         List<Employee> employees = new ArrayList<>();
+//         employees.add(new HourlyEmployee("mohammed", 20, 12));
+//         employees.add(new CommissionEmployee("mehdi", 120, 4));
+//         employees.add(new Manager("boos", 2000));
 
-        List<Employee> employees = new ArrayList<>();
-        employees.add(new HourlyEmployee("mohammed", 20, 12));
-        employees.add(new CommissionEmployee("mehdi", 120, 4));
-        employees.add(new Manager("boos", 2000));
+//         for (Employee emp : employees) {
+//             System.out.println("name: " + emp.getName() + " " + "total: " + emp.calculateSalary());
+//         }
+//     // ============================= challenge 3 ====================================
 
-        for (Employee emp : employees) {
-            System.out.println("name: " + emp.getName() + " " + "total: " + emp.calculateSalary());
+    List<Animal> animals = new ArrayList<>();
+    animals.add(new dog());
+    animals.add(new Cat());
+        for (Animal a : animals) {
+            a.makeSound();
+            a.eat();
         }
     }
 }
-
