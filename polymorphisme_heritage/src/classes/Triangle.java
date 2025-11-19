@@ -2,8 +2,8 @@ package classes;
 
 public class Triangle extends Shape {
 
-    double base;
-    double height;
+    private double base;
+    private double height;
 
     public Triangle(double base, double height) {
         this.base = base;

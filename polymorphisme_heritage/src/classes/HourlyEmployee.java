@@ -2,8 +2,8 @@ package classes;
 
 public class HourlyEmployee extends Employee {
 
-    double hoursWorked;
-    double hourlyRate;
+    private double hoursWorked;
+    private double hourlyRate;
 
     public HourlyEmployee(String name, double hoursWorked, double hourlyRate) {
         super(name);

@@ -1,7 +1,7 @@
 package classes;
 
 public class Manager extends Employee{
-    double bonus;
+    private double bonus;
 
     public Manager(String name, double bonus) {
         super(name);
